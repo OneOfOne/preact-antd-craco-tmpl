@@ -1,11 +1,5 @@
 import React from "react";
-import {
-	BrowserRouter as Router,
-	Route,
-	Link,
-	Switch,
-	Redirect,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
 
 import { Layout } from "antd";
 import Home from "./routes/Home";
@@ -35,9 +29,7 @@ const App: React.FC<any> = () => {
 						</Route>
 					</Switch>
 				</Layout.Content>
-				<Layout.Footer style={{ textAlign: "center" }}>
-					Copyright &copy;
-				</Layout.Footer>
+				<Layout.Footer style={{ textAlign: "center" }}>Copyright &copy;</Layout.Footer>
 			</Layout>
 		</Router>
 	);

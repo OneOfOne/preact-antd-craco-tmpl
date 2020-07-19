@@ -10,3 +10,5 @@
 - Installed `craco` and a few plugins for it and babel to help with the next 2 iteems
 - Replaced `react` with `preact`
 - Replaced `momentjs` with `dayjs`
+- Added `react-snap` to help SEO.
+- Added `prettier`.

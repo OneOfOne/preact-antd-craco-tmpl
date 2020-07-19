@@ -24,10 +24,9 @@ function makeBreadcrumbs(path: string): Route[] {
 	];
 }
 
-const menu = [
-	<NavLink to="/about">About</NavLink>,
-	<a href="https://github.com/OneOfOne">OneOfOne's GitHub</a>,
-].map((v, i) => <Menu.Item key={i}>{v}</Menu.Item>);
+const menu = [<NavLink to="/about">About</NavLink>, <a href="https://github.com/OneOfOne">OneOfOne's GitHub</a>].map((v, i) => (
+	<Menu.Item key={i}>{v}</Menu.Item>
+));
 
 function DropdownMenu() {
 	return (
@@ -36,8 +35,7 @@ function DropdownMenu() {
 				style={{
 					border: "none",
 					padding: 0,
-				}}
-			>
+				}}>
 				<EllipsisOutlined
 					style={{
 						fontSize: 20,
